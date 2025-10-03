@@ -1,6 +1,7 @@
 body {
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: calc();
 }
 
 h1 {
