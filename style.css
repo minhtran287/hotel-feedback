@@ -1,3 +1,17 @@
 body {
     font-size: 1.2rem;
 }
+
+h1 {
+    color: rgb(117, 26, 117);
+    font-weight: bold;
+}
+
+legend {
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+}
+
+.welcome {
+   color: rgb(31, 31, 230);
+}
