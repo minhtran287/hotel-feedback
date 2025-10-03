@@ -1,12 +1,24 @@
 body {
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: calc();
-    background-image:url("https://media.istockphoto.com/id/175262244/photo/pillows-arranged-on-bed.jpg?s=612x612&w=0&k=20&c=QJRX-3U5EYK2XIlsCvf7D2bURIvessXja9fIodbsNnY=") ;
-  ;}
-backgrond-img { width: max-content
-    height:max-content;}
-    
+  }
+.container {
+     position: relative;
+}    
+
+.container::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/175262244/photo/pillows-arranged-on-bed.jpg?s=612x612&w=0&k=20&c=QJRX-3U5EYK2XIlsCvf7D2bURIvessXja9fIodbsNnY=") ;
+  background-size: cover; /* Adjust as needed */
+  opacity: 0.2; /* Adjust transparency (0.0 to 1.0) */
+  z-index: -1; /* Places the pseudo-element behind the content */
+}
+
     h1 {
     color: rgb(0, 0, 0);
     font-weight: bold;
