@@ -2,10 +2,9 @@ body {
     font-size: 1.2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: calc();
+    background-image:url("https://tse1.mm.bing.net/th/id/OIP._o90D3I9UnXn8BT0-L0mXgHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3") ;
 }
-::backdrop{ color: aqua;
 
-}
     
     h1 {
     color: rgb(0, 0, 0);
